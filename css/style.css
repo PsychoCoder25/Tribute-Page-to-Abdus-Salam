@@ -1,0 +1,228 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+	background-color: #541388;
+	color: #F1E9DA;
+}
+
+nav {
+	height: 8vh;
+	background-color: none;
+	display: flex;
+	align-items: center;
+	background-color: #F1E9DA;
+	color: #541388;
+}
+
+nav a {
+	margin-left: 2px;
+	color: #541388;
+	text-decoration: none;
+	margin: 10px 43px;
+	padding: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	transition: 0.1s ease all;
+}
+
+nav a:hover {
+	border-bottom: 2px solid #541388;
+}
+
+.search {
+	float: right;
+	margin-left: 350px;
+}
+
+.search input[type="text"]{
+	background: none;
+	border: none;
+	border-bottom: 2px solid #541388;
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+}
+
+.search input[type="submit"]{
+	background: none;
+	border: 2px solid #541388;
+	border-radius: 5px;
+	color: #541388;
+	padding: 8px;
+	font-size: 15px;
+	transition: 0.5s ease all;
+	cursor: pointer;
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+.search input[type="submit"]:hover {
+	background-color: #541388;
+	color: #F1E9DA;
+}
+
+.header h1 {
+	font-size: 45px;
+	margin-top: 45px;
+	text-decoration: underline;
+	display: inline-block;
+	letter-spacing: 4px;
+	word-spacing: 4px
+}
+
+.header h1:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+
+/*p tag after h1*/
+span + p {
+	font-size: 20px;
+	margin: 10px;
+	margin-left: 5px
+}
+
+img + p {
+	font-size: 18px;
+	margin: 10px
+}
+
+.left {
+	width: 48%;
+	display: inline-block;
+}
+
+.right {
+	border-left: 2px solid white;
+	width: 48%;
+	float: right;
+	margin-top: 20px;
+	display: inline-block;
+	height: 1060px;
+
+}
+
+center > h1 {
+	font-size: 35px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+.introduction > h2 {
+	font-size: 35px;
+	margin: 15px 1px;
+	letter-spacing: 3px;
+	text-decoration: underline;
+
+}
+
+.introPara {
+	font-size: 20px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	margin-left: 5px;
+}
+
+.contribution > h2 {
+	font-size: 35px;
+	margin: 15px 1px;
+	text-decoration: underline;
+	letter-spacing: 4px;
+	word-spacing: 4px
+}
+
+.contribution ul {
+	margin-left: 25px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	word-spacing: 2px
+}
+
+.contribution ul li{
+	padding: 5px
+}
+
+.moreDetails {
+	font-size: 25px;
+	margin-top: 40px;
+	letter-spacing: 2px
+}
+
+.abdulSalamText {
+	color: white;
+	text-shadow: 5px 5px solid white;
+	border-bottom: 2px solid white;
+}
+
+.actionBtn {
+	padding: 15px;
+	background: none;
+	border: 2px solid white;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 60px;
+	transition: 0.1s ease all;
+	cursor: pointer;
+	margin-top: 15px
+}
+
+.actionBtn:hover {
+	background-color: white;
+	color: #541388;
+}
+
+td, th {
+	padding: 5px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+td {
+	font-size: 18px;
+}
+th {
+	font-size: 20px;
+	padding: 8px 16px;
+}
+
+.Nastaliq {
+	display: block;
+	font-size: 40px;
+	margin-bottom: 12px;
+}
+
+.footer {
+	margin-top: 10px;
+	background-color: #F1E9DA;
+	color: #541388;
+	overflow: hidden;
+	height: 60px;
+	font-size: 15px
+}
+
+.left-footer > h2 {
+	margin-left: 8px;
+	float: left;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.right-footer > h2 {
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+h2 > a {
+	text-decoration: underline;
+	overflow: hidden;
+	margin-top: 20px;
+	color: #541388;;
+}
